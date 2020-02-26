@@ -14,4 +14,10 @@ public class Employe_affichageTest{
 		new Employe_affichage();
 			
 	}
+	@Test()
+	public void Testaffichage() {
+			
+		Employe_affichage Employe = new Employe_affichage("Bazin Sarah","adresse");
+		Employe.afficheCoordonnees();
+	}
 }

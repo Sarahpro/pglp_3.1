@@ -17,5 +17,7 @@ Si l'affichage est remplacé par le stockage dans un fichier CSV la SRP n'est to
 
 #Question 4: Proposer une solution en respectant la SRP.
 
-Afin de respecter la SRP, il faut utiliser une classe possédant la méthode afficheCoordonnees() 
+Afin de respecter la SRP, il faut utiliser une classe possédant la méthode afficheCoordonnees().
+Par conséquent j'ai décidé de modifier la classe employer en classe abstraite et de créer deux autres classe contenant chacune une méthode de cette classe heritant de cette classe abstraite.
+DE cette manière, chacune de ces classes respectent la SRP.
 
