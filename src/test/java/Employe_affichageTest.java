@@ -1,6 +1,5 @@
 import org.junit.Test;
 
-@SuppressWarnings("restriction")
 public class Employe_affichageTest{
 	@Test()
 	public void TestConstructeur() {

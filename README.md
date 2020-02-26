@@ -13,6 +13,7 @@ Si la méthode du salaire change le service de l'affichage des coordonnees sera 
 
 #Question 3:Que se passe-t-il si l'affichage est remplacé par le stockage dans un fichier CSV?
 
+Si l'affichage est remplacé par le stockage dans un fichier CSV la SRP n'est toujours pas respecté.
 
 #Question 4: Proposer une solution en respectant la SRP.
 
