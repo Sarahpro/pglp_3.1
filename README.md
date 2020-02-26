@@ -4,7 +4,7 @@
 
 La classe Employe ne respecte pas SRP car elle possède deux responsabilités:
 - calculSalaire()
--afficheCoordonnees()
+- afficheCoordonnees()
 Par conséquent un changement de l'une de ses responsabilités peut perturber le service de l'autre. Ces deux responsabilités étant indépendante d'une de l'autre ( le calcule du salaire ne dois pas perturber l'affichage des coordonnées de l'employer et vis-versa) la classe ne respecte pas SRP.
 
 #Question 2: Que se passe-t-il si la méthode du salaire change?
@@ -19,5 +19,5 @@ Si l'affichage est remplacé par le stockage dans un fichier CSV la SRP n'est to
 
 Afin de respecter la SRP, il faut utiliser une classe possédant la méthode afficheCoordonnees().
 Par conséquent j'ai décidé de modifier la classe employer en classe abstraite et de créer deux autres classe contenant chacune une méthode de cette classe heritant de cette classe abstraite.
-DE cette manière, chacune de ces classes respectent la SRP.
+De cette manière, chacune de ces classes respectent la SRP.
 
